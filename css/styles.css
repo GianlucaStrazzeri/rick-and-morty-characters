@@ -72,10 +72,33 @@ table {
   background-color: #03b1c8;
 }
 
-ul {  
-  padding-top: 100px;
+ul {
+  padding-top: 120px;
   list-style: none;
 }
+
+#character-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#character-list li {
+  width: 250px;
+
+}
+
+#character-list li img {
+  width: 100%;
+  
+}
+
+#character-list span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 
 
 
